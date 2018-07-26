@@ -1,5 +1,5 @@
 const fs = require("fs");
-const protoValidate = require("../src/validation/validator-prototype");
+const protoValidate = require("../src/validation/validator");
 
 test("HCA ref schema, species and restriction schema test WITHOUT errors", () => {
     let hcaSchema = fs.readFileSync("examples/schemas/draft-04/donor_organism.json");

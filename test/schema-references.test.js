@@ -1,5 +1,5 @@
 const fs = require("fs");
-const protoValidate = require("../src/validation/validator-prototype");
+const protoValidate = require("../src/validation/validator");
 
 // test("Base schema and definitions schema test WITH erros", () => {
 //     let baseSchema = fs.readFileSync("examples/schemas/references/base-sample-schema.json");
